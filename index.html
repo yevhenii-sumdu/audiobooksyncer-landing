@@ -9,6 +9,20 @@
   <meta name="author" content="Yevhenii Lytvynenko">
   <meta name="robots" content="noindex,nofollow">
 
+  <meta property="og:title" content="audiobooksyncer">
+  <meta property="og:description" content="Landing page for my final paper">
+  <meta property="og:url" content="https://yevhenii-sumdu.github.io/audiobooksyncer-landing/">
+  <meta property="og:image" content="https://yevhenii-sumdu.github.io/audiobooksyncer-landing/images/favicons/favicon.svg">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "audiobooksyncer",
+      "description": "Landing page for my final paper",
+    }
+  </script>
+
   <link rel="icon" href="/images/favicons/favicon.ico" />
   <link rel="icon" href="/images/favicons/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" />
@@ -23,23 +37,23 @@
 </head>
 
 <body>
-  <div class="bg-primary-subtle text-center py-5">
+  <header class="bg-primary-subtle text-center py-5">
     <div class="container">
       <h1 class="display-4">audiobooksyncer</h1>
       <p class="lead">Додаток для синхронізації аудіокниги, книги та перекладу</p>
       <p class="lead">An application to synchronize an audiobook with text and its translation</p>
     </div>
-  </div>
+  </header>
 
-  <div class="container my-5">
-    <div class="mb-5">
+  <main class="container my-5">
+    <section class="mb-5">
       <h2>Мета</h2>
       <p>Мета цього додатку - спростити досвід прослуховування аудіокниг іноземною мовою, а саме, якщо слухачу не
         зрозуміло те, що каже диктор, то він може швидко і зручно прочитати поточне речення, а в разі, якщо речення все
         ще не зрозуміле - подивитися переклад.</p>
-    </div>
+    </section>
 
-    <div class="mb-5">
+    <section class="mb-5">
       <h2>Актуальність теми</h2>
       <p>Люди, які хочуть прослуховувати аудіокниги мовою оригіналу, наприклад, для вивчення іноземної мови та кращого
         її сприйняття на слух чи з особистих вподобань, можуть стикнутися з певними складнощами у процесі.</p>
@@ -51,9 +65,9 @@
       <p>Цей додаток розв'язує обидві ці проблеми, що дозволяє прослуховуванню мати якомога менше "бар'єрів". Перша
         проблема вирішується синхронізацією окремих речень та аудіо, друга проблема вирішується синхронізацією оригіналу
         та професійного перекладу книги. У результаті ми отримуємо щось схоже на субтитри двома мовами.</p>
-    </div>
+    </section>
 
-    <div class="mb-5">
+    <section class="mb-5">
       <h2>Основні завдання</h2>
       <ul>
         <li>Синхронізація тексту та аудіо</li>
@@ -61,32 +75,32 @@
         <li>Визначення, де у тексті починаються аудіофайли</li>
         <li>Розробка CLI інтерфейсу для користувача</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-5">
-      <h2>Візуалізація</h2>
+    <section class="mb-5">
+      <h2 id="visualization">Візуалізація</h2>
       <div class="row align-items-center">
         <div class="col-md-12 col-lg-6 mb-5 mb-lg-0">
-          <img src="/images/diagram-part1.png">
+          <img src="/images/diagram-part1.png" aria-labelledby="visualization">
         </div>
         <div class="col-md-12 col-lg-6">
-          <img src="/images/diagram-part2.png">
+          <img src="/images/diagram-part2.png" aria-labelledby="visualization">
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="mb-5">
+    <section class="mb-5">
       <h2>Очікувані результати</h2>
       <p>Додаток, що матиме вищезгаданий функціонал і буде зручним у використанні.</p>
-    </div>
+    </section>
 
-    <div class="mb-5">
+    <section class="mb-5">
       <h2>Контакти</h2>
       <p>
         Email: <a href="mailto:yevhenii.lytvynenko@student.sumdu.edu.ua">yevhenii.lytvynenko@student.sumdu.edu.ua</a>
       </p>
-    </div>
-  </div>
+    </section>
+  </main>
 
   <footer class="bg-primary-subtle text-center py-4">
     Бакалаврська робота 2025. Литвиненко Євгеній.
